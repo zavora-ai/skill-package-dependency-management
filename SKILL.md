@@ -1,11 +1,11 @@
 ---
 name: package-dependency-management
 description: Manage package dependencies — lookup packages, check versions, review changelogs, assess compatibility, analyze lockfiles, and propose upgrades. Use when updating dependencies, checking for outdated packages, planning major upgrades, reviewing changelogs, or auditing dependency health.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-package-registry server connected.
 allowed-tools: [lookup_package, list_versions, get_changelog, check_advisories, check_compatibility, analyze_lockfile, propose_upgrades]
-tags: [devops, dependencies, packages, upgrades, maintenance]
 metadata:
+  category: engineering
   author: Zavora AI
   mcp-server: mcp-package-registry
   success-criteria:
